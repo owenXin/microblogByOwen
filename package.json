@@ -1,0 +1,12 @@
+{
+	"name": "socialB2B",
+	"version": "0.0.1",
+	"private": true,
+	"dependencies": {
+		"express": "*",
+		"ejs": "*",
+		"connect-mongo": "*",
+		"mongodb": "*",
+		"connect-flash": "*"
+	}
+}
