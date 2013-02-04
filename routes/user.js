@@ -53,7 +53,7 @@ exports.doReg = function(req, res) {
             return res.redirect('/reg');
         }
         //如果不存在則新增用戶
-        User.save(newUser, function(err) {
+        newUser.save(function(err) {
             if (err) {
                 req.flash('error', err);
                 return res.redirect('/reg');
